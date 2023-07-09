@@ -1,0 +1,198 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .home{
+    @apply flex;
+  }
+
+  .angular-section{
+    @apply w-[50vw]
+    bg-[#dd0031]
+    h-screen
+    flex
+    items-center
+    justify-center
+    xs:w-[50vw]
+    ;
+  }
+
+  .angular-icon{
+    @apply w-[50%] flex flex-col items-center
+  }
+
+  .angular-span{
+    @apply text-[4rem]
+    cursor-pointer
+    xd:text-3xl
+    xs:text-3xl
+    xs:text-center;
+  }
+
+  /* vue section ------------------------------------------------------------------------------------------------------ */
+  .vue-section{
+    @apply w-[50vw]
+    bg-[#3FB27F]
+    h-screen
+    flex
+    items-center
+    justify-center
+  }
+  .vue-icon{
+    @apply w-[50%] flex flex-col items-center;
+  }
+  .vue-span{
+    @apply text-[4rem]
+    cursor-pointer
+    xd:text-3xl
+    xd:text-center
+    xs:text-3xl
+    xs:text-center;
+  }
+
+  /* angular page ------------------------------------------------------------------------------------------------------ */
+  .angular-projects-container{
+    @apply bg-gray-400
+    w-full
+    h-screen
+    flex
+    flex-col
+    items-center;
+  }
+  .angular-projects{
+    @apply
+    w-[90%]
+    mt-10
+    flex
+    justify-evenly
+    flex-wrap;
+  }
+  .project-01-financialSystem{
+    @apply bg-white
+    h-[25rem]
+    w-64
+    rounded-lg;
+  }
+  .header-angular-container{
+    @apply h-20
+    w-full
+    bg-[#dd0031]
+    flex
+    items-center
+    justify-center
+    rounded-t-lg;
+  }
+  .container-description-project-01{
+    @apply flex
+    flex-col
+    items-center
+    mt-5;
+  }
+  .container-description-project-01 h3{
+    @apply font-semibold;
+  }
+  .container-description-project-01 p{
+    @apply text-sm
+    mt-16
+    text-center;
+  }
+  .social-media{
+    @apply w-full
+    mt-[2rem]
+    h-40
+    flex
+    items-center
+    justify-around;
+  }
+  .github-section{
+    @apply flex;
+  }
+  .section-icons{
+    @apply flex
+    flex-col
+    items-center;
+  }
+  .social-icon{
+    @apply w-5;
+  }
+  .github-icon{
+    @apply text-slate-500;
+  }
+  .header-angular-icon{
+    @apply w-16;
+  }
+  /* vue page ------------------------------------------------------------------------------------------------------ */
+  .vue-projects-container{
+    @apply bg-gray-400
+    w-full
+    h-screen
+    flex
+    flex-col
+    items-center;
+  }
+  .vue-projects{
+    @apply
+    w-[90%]
+    mt-10
+    flex
+    justify-evenly;
+  }
+  .project-01-financialSystem{
+    @apply bg-white
+    h-[25rem]
+    w-64
+    rounded-lg;
+  }
+  .header-vue-container{
+    @apply h-20
+    w-full
+    bg-[#3FB27F]
+    flex
+    items-center
+    justify-center
+    rounded-t-lg;
+  }
+  .container-description-project-01{
+    @apply flex
+    flex-col
+    items-center
+    mt-5;
+  }
+  .container-description-project-01 h3{
+    @apply font-semibold;
+  }
+  .container-description-project-01 p{
+    @apply text-sm
+    mt-16
+    text-center;
+  }
+  .social-media{
+    @apply w-full
+    mt-[2rem]
+    h-40
+    flex
+    items-center
+    justify-around;
+  }
+  .github-section{
+    @apply flex;
+  }
+  .section-icons{
+    @apply flex
+    flex-col
+    items-center;
+  }
+  .social-icon{
+    @apply w-5;
+  }
+  .github-icon{
+    @apply text-slate-500;
+  }
+  .header-vue-icon{
+    @apply w-16;
+  }
+
+}
